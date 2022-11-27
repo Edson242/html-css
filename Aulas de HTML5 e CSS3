@@ -1,0 +1,694 @@
+Aulas de HTML5 e CSS3
+
+Dividido em 5 modulos
+
+1 - Primeiro passos HTML+CSS
+2 - Deixando as coisas mais bonitas
+3 - Colocando um protótipo no ar
+4 - Aprofundando os conhecimentos
+5 - Novas Tecnologias
+
+--------------------------
+		
+        Caderno
+
+          de
+
+        HTML&CSS
+
+-------------------------
+
+SITES IPC:
+
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+-------------------------
+
+Referências On-line
+
+MDN - Mozilla Developer Network
+W3C(Standards) - World Wide Web Consortium (W3C Standards)
+WLS - Web Hypertext Application Technology Working Group (WHATWG Living Standard)
+W3S - Refsnes Date (W3Schools)
+
+------------------------
+
+Como a internet surgiu?
+
+> Nasceu na Guerra Fria - 1969
+
+-----------------------
+
+Como a Internet funciona?
+
+> Digitos Binarios
+  0 e 1 = bit
+  8 bits = Byte
+-Mínimo de Bits = 8
+EX: A = 01000001
+
+> UTF-8 ?
+
+/ONDAS QUADRADAS/
+
+Multiplos de Byte:
+
+1024 Bytes = 1KB <2*10>
+1024 KB = 1MB
+1024 MB = 1GB
+1024 GB = 1TB
+1024 TB = 1PB
+1024 PB = 1EB
+1024 EB = 1ZB
+1024 ZB = 1YB
+
+Ex= MB =/ Mb
+
+MB = Megabytes ARMAZENAMENTO
+Mb = Megabits TRANSMISSÃO
+
+_____________________________
+
+Como nos conectamos?
+
+> Cliente = Você
+Roteador: Liga os dois
+> Internet = Servidor
+
+Computador : Onda Quadrada
+C => I : *Mod*ulação
+I => C : *Dem*olução
+MODEM : Mod + Dem
+Internet : Onda Senoidal
+
+TUDO FICA EM UM SERVIDOR!
+> tudo que fica no servidor recebe um IP
+- www.iplocation.net -
+  > Servidor DNS = Sistema de Nome de Dominio
+Celular/PC</instagram> => Moden </instagram> => DNS </158.259.236.33> => Moden </158.259.236.33> => Celular/PC </158.259.236.33>/<Instagram>
+
+> Rotas na Internet...
+
+ - Dados pegam Rotas/Caminhos diferentes...
+
+-------------------------------------------
+
+> Domínio = É o nome do site </ww.algo.com.br>
+  . Nome único
+  . Pago anualmente
+  . Vários TLDs
+
+> Hospedagem = Local onde fica hospedado o site
+  . Espaço para armazenar seus arquivos
+  . Pago mensamente
+  . Espaço, memória, recursos
+
+=A Hospedagem é mais Importante, de certa forma, que o Domínio=
+
+www.github.com/gustavoguanabara => URL => Localizador de Recurso Uniforme/Único
+
+  > github.com => DOMÍNIO
+  > .com => TLD => GTLD => Generico CCTLD .br/.us
+  > www. => Sub-Domínio
+  > /gustavoguanabara => Caminho
+
+----------------------------------------
+
+=> Como funcionam as HTML e as CSS
+
+  Eu desenvolvo em HTML e CSS
+
+HTML = Hypertext > Linguagem de marcação para hipertextos
+       Markup
+       Language
+
+CSS = Cascading > Folhas de Estilo em Cascatas
+      Style
+      Sheets 
+
+
+>>>IMPORTANTE:
+
+   > A linguagem html é focada em Conteúdo (textos, imagens, videos, tabelas)!!
+
+=> > A linguagem de CSS é focada em Designer (cor, sombras, tamanhos, posicionamento)!!
+
+   > Interatividade é o foco da linguagem de programação (JS, Python, Ruby)!!
+
+Conteúdo em HTML:
+
+abertura de tag <= <h1> Exemplo de título => Conteúdo </h1> => fechamento de tag
+abertura de tag <= <p> exemplo de parágrafo => Conteúdo </p> => fechamento de tag
+
+!! </> = TAG !!
+
+<img src="foto.png" alt="Exemplo de foto">
+
+  > Abertura de tag = img
+  > Parâmetro = src e alt
+  > Valor = "Exemplo de foto" e "foto.png"
+
+Estilo em CSS:
+
+h1{
+   font-family: Arial;
+   fonte-size: 20pt;
+   color: blue;
+   }
+
+h1{ => Seletor
+
+font-family: Arial;
+   fonte-size: 20pt;  => Declaração <TODA DECLARAÇÃO TEM Q TER ";"> !!
+   color: blue;
+
+blue; => Valor
+color: => Propriedade
+
+Estrutura Básica HTML:
+
+<!DOCTYPE html>
+<html lang="pt-br"
+  <head>
+    <meta charset:"UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Olá, Mundo!</h1>
+
+  /body>
+</html>
+
+=> Como funciona HTML e CSS?
+
+  > HTML e CSS ficam no servidor, e uma cópia vai para seu navegador
+
+---------------------------------------------
+
+=> Front-end, Back-end e Full Stack:
+
+  Site Estático = Igual para TODOS
+    => Client-side "Para o lado do cliente"
+
+      Desenvolvedor Front-end => Client-side
+        >Js/HTML/CSS/Ruby/Python...
+
+    => Server-side "Para o lado do servidor"
+
+      Desenvolvedor Back-end => Server-side
+        > php/Js/C#/Python/Ruby/Java...
+
+  "Front-end" + "Back-end" = "Full Stack"
+
+----------------------------------------------
+MARCA
+
+> hr => Linha Horizontal
+> p => Paragráfo
+> h1 => Cabeçalho
+> br => Quebra de linhas
+>img => Imagens > control + espaço
+> link:favicon => Coloca o Favicon
+> &lt;/&gt; => para usar os "<>"
+> &reg; => Marca registrada
+> &copy;=> Copyright
+> u => colocar sublinhado___
+> address => end, itálico.
+>
+EMOJIS: emojipedia.org
+> &#x1F596;
+> &#x1F913;
+
+--------------------------------------------
+Direitos Autorais:
+
+  > Sempre ter cuidado com isso !!
+
+=>Ferramentas=>Direitos Autorais
+    > Unsplash
+    > Pexels
+-------------------------------------------
+Formato de Imagem:
+
+  > PNG & JPGE;
+
+  > PNG mais novo (1996)
+    > PNG compacta menos q o JPEG
+
+  > JPGE é mais antigo (1983)
+    > JPGE compacta a imagem => Melhor Formato
+
+  > GIF 
+    > Permite movimento na imagem
+    > Qualidade RUIM
+
+        => Pequeno => PNG
+        => Grande => JPEG
+
+    > PNG => Maior Qualidade => Menos Compactação
+    > JPEG => Menos Qualidade => Maior Compactação
+JPEG e PNG:
+
+  > 50 a 70 % de RESOLUÇÃO está ÓTIMO!
+  > 1500/1200 px ótimo!
+    => [70%/11%]
+    => Nunca aumente a resolução</dali só pra baixo>
+---------------------------------------------
+COMO COLOCAR IMAGEM:
+
+>img => Imagens > control + espaço
+  > Usar imagem ONLINE usando URL da IMG!
+
+--------------------------------------------
+
+FAVICON:
+  > Icone que fica ao lado do nome do site 
+    >favicon.io
+    >favicon.ico
+    > link.favicon
+
+-------------------------------------------
+==>>> Hierarquia de Titulos:
+  => Paragráfo lorem rsrs
+  => Até H6
+  !Ordem do Número da H não ALTERA tamanho de FONTE!
+--------------------------------------------
+
+=> Semântica => significado
+
+ HTML5 foca em Semântica... 
+ Tags obsoletas - JAMAIS
+
+ ----------------------------------------
+ Strong => Negrito
+ em => Itálico
+ mark => Marcar com Marca Texto
+ <big> morreu, mas o <small> ainda
+sobrevive
+big => GRANDE
+small => pequeno
+del => Texto Deletado
+ins => Sublinhar
+sub => Sobrescrever
+sup => Sobscrever
+code => destacar Códigos
+q => entre "aspas"
+blockquote => Destacar um Texto
+abbr => Abreviações
+bdo/rtl ou ltl => inverter retrevni
+-------------------------------------------
+> Listas
+  > Listas Ordenadas
+    > ol, li => Para Lista
+      > Type
+  > 
+-------------------------------------------
+  => Links
+
+  > Links Externos
+   > use target="_blanck" rel="external"
+   > <a>  </a>
+
+
+  > Links Internos
+  > use target="_self" rel="internal" rel="next ou prev"
+  
+
+  => Link Download
+    > download="meulivro.zip"
+    > type="application/pdf"
+
+    > TAG PICTURE
+      > Ordem do menos para o maior SEMPRE!
+      > </picture> = Mudar tamanho da imagem
+        > picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+      > <source-midia-type> = Mudar o tamanho da imagem
+        > <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+
+        => Audio
+
+        <audio> scr=SUA MÚSICA
+          > <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+        <audio> </audio> usar sourcer=src
+    <audio preload="metadata" controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+        preload =
+                auto => Só abre dps que carregar tudo
+                metadata => Só carregar nome do arquivo data, coisas ipc => O MELHOR!
+                none => Não carrega nada
+        autoplay = autoplay
+        controls = controles de audio  
+        loop = loop
+        melhor ogg ou mp3!
+
+        => Video
+
+        Formatos:
+          > mp4/m4v WEBm ogv
+          acima de 1080p não hospedar no próprio site!
+          > tag <video>
+          width = para alterar tamanho
+          poster = thumblenail
+          vão consumir mto trafego de dados se hospedar no site os videos!
+          > usar vídeos do Youtube M4V
+          > vimeo 
+          > usar youtube ou vimeo para usar nos site! => SelfHost
+
+ -> CSS
+ > O estilo do site
+ > TAGS:
+  > <style> = ESTILO INLINE
+    > style="color: blue;" ==> COR
+    > style="text-align:justify;" ==> ORG. DO TEXTO...
+    > style="font-size:20px"
+    > style = "text-decoration" ==> USAR COISAS TIPO SUBLINHADO, NEGRITO...
+  > <style> = Locais ou Internos
+    > usa o style separado do que o inline
+
+  > <style> = Externos
+    > usa o style separado em outro arquivo
+
+> Pode se usar mais de um link de CSS Estilo Extra!
+> Prefira CSS Internos e CSS Externos do que CSS Inline!
+> CSS externo = use sempre que puder
+  CSS interno = use para pequenas configurações
+  CSS inline = procure evitar
+------------------MÓDULO 2---------------------
+  > Emoções de Cores
+
+    A psicologia das cores é muito importânte!
+      As cores representam as coisa...
+
+  > Cores em Hexadecimais...
+    > Formado apartir do Red Green Blue...
+  > Representação em:
+    > Hexadecimal
+    > RBG
+    > HSL
+    > Nome
+
+  > Harmonia de Cores:
+    > Círculo Cromático...
+    > Harmonia e Simetria
+    > Cores Primarias:
+      > Amarelo, Vermelho e Azul... formam um triângulo no CC...
+    > Cores Secundárias:
+      > Violeta, Verde e Laranja... formam um triângulo no CC...
+    > Cores Tercearia:
+      > Toda cor entre Primárias e Secundárias...
+    > Temperatura de Cores:
+      > Cores Frias e Quentes..
+        > Frias: Violeta, Roxo, Azul, Verde
+        > Quentes: Amarelo, Laranja, Vermelho, Violeta avermelhado
+    > Sempre cuidar da Paleta de Cores, partindo de uma cor principal... de 3 a 5 cores, melhor 4...(Desconsidera Preto e Branco)
+    > Cores Complementares
+      > Muito Contraste
+      > Cores Opostas do Círculo Cromático
+        > Violeta e amarelo...
+        > Verde e Vermelho...
+        > Azul e Laranja...
+      > Cores Análogas
+        > 3 cores
+        > Pouco Contraste
+          > Violeta, Vermelho aroxeado e Violeta Azulado
+      > Cores Análagas Relacionadas
+        > Pega duas cores análogas, pula e pega outra cor
+      > Cores Intercaladas
+        > Uma cor, pula uma, pega, pula uma...
+        > 3 Cores
+        > Cores Triádicas
+          > Pula 3 cores
+          > Cores Primaria
+        > Cores em Quadrado
+          > Pula de 2 em 2
+          > Forma um quadrado no CC
+          > 4 cores
+          > Fortes e bem balanceadas
+        > Cores Triádicas
+          > Complementares, pula e pega complementares
+          > 4 cores
+          > Forma um X ou um retângulo
+      > Monocromia
+        > Uma cor apenas
+        > Muda Luz e Saturação da cor
+        > Famoso DEGRADÊ
+
+  > Sites de Cores Uteis
+    > color.adobe.com
+    > paletton.com
+    > coolors.co
+
+  > Capturar Cores usando ColorZilla do Chrome!
+
+  > Degradê com CSS
+    > background-image: linear[radial]-gradient(DIREÇÃO[to right, to left, to top, to bottom, deg para grausº], cor1[% da cor na tela], cor2...)
+    > degradê FIXO
+      > background-attachment: fixed;
+
+  > SITE!
+    > Novas tags
+      > border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(97, 29, 35, 0.582);[dimensões da sombra]
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+
+  > Tipografia CSS
+    > Tipografia transmite sentimentos
+    > Anatomia do tipo
+      > Tamanho
+        > Letra x é o inicial para construção de fonte
+        > Itens Métricos
+          > altura-x
+            > altura das maiúsculas
+            > altura ascendente PRA CIMA
+            > altura descendente PRA BAIXO
+            > altura do corpo TUDO
+        > tudo é baseado no tamanho do x
+        > serifa => tracinho das letras 
+        > haste => 
+        > filete => une hastes ou arcos
+        > arco => 
+        > esporão => saltinho da letra
+        > vértice => ponta
+        > terminal => elemento não preso
+          > braço => Elemento que se eleva pra cima
+          > perna => Elemento que se eleva pra baixo
+          > pé => onde fica a serifa
+          > espinha => curvas do S 
+          > barriga => buracos do B
+          > olho => Parte grande do Q
+          > orelha => rabicho 
+          > cauda => parte de baixo do g ou q
+  > Glifo é cada letra!
+    > Conjunto de Glifo é Fonte
+  > Familia Tipografica 
+    > conjunto de Glifos iguais
+      > light
+      > normal
+      > seminegrito
+      > negrito
+      > extranegrito
+
+  > Categoria de fontes
+    > Serifas => Com serifa
+    > Sans-Serif => Sem Serifa
+    > Monoespaçada => Todas as letras tem o mesmo espaço!
+      > Com ou Sem Serifa
+    > Handwriting => Escrita a mão
+    > Display => Fonte Loka
+
+  > TESTES
+    > fonte-family
+      > css safe font combinations - W3C
+    > Terminar sempre com font combinations
+
+  > Tamanho
+    > px ou em PREFERÊNCIA!!
+    > 16px NORMAL ou 1 em! preferência em!
+
+  > Peso 
+    > font-weight => lighter normal bold bolder
+    > font-style => 
+    > text-decoration => 
+    > shorthand font => - font-style -> font-weight -> font-size -> font-family => font: italic bolder 3em sans-serif
+
+  > fontes externas
+    > Google Fonts
+      > @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    > baixadas
+      > font-face
+        >  @font-face {
+            font-family: 'love';
+            src: url("fonts/love story ttf.ttf") format("truetype");
+        > tipos de format
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-att (Apple Advanced Typography)
+            - svg
+
+  > Captura de Fontes usando o Fonts Ninja extensão do Chrome
+    > usar o https://www.whatfontis.com/
+             https://www.fontsquirrel.com/
+             https://www.myfonts.com/
+
+  > Alinhamento de texto CSS
+    > text-align: left,right,center e justify
+    > text-indent: 20px -> espaço de paragráfo
+
+  > Usando o id do CSS
+    > <h1 id="principal">Criando Sites com HTML e CSS</h1>
+    > para identificar no CSS #principal
+    > em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+    > Só pode se ter UM ID em um mesmo documento HTML
+
+  > Usando o class do CSS
+    > <h1 class="basico">Básico</h1>
+    > TAG! <span></span> para destacar ou mudar apenas um elemento dentro do texto
+    > pode se aplicar mais de uma classe a um elemento usando ESPAÇO class="basico principal"
+
+  > Pseudo-Classe em CSS
+    > é : no CSS
+    > é um estado
+    > hover == passando o mouse!
+    > <div>É UM ESPAÇO, UM LINHA</div>
+    height => Altura
+    width => Largura
+    > > significa FILHO de algo, dentro:
+      > div > p {
+        display: none; => FICA INVISIVEL
+      }
+      > div:hover > p {
+        display: block; => fica VISIVEL
+      }
+  > Pseudo-Elementos em CSS
+    > :: 
+    > visited => sites já visitados
+    > text-decation: none; TIRA O SUBLINHADO DO LINK
+    > active => quando ativado ou clicado vai acontecer algo
+
+  > Modelo de Caixas
+  > todo paragráfo é uma BOX
+    > aninhamento
+      > border => linha que circunda seu conteudo...
+      > padding => aumentar a border, espaço INTERNO
+      > margin => espaço EXTERNO
+      > outline => contorno do border
+    > tipos de Caixa
+      > box-level
+        > sempre se inicia em uma nova linha
+        > sempre ocupa 100% da sua tela
+        > tags
+          > <div>
+          > <h1> - <h6>
+          > <p>
+          > <main>
+          > <header>
+          > <nav>
+          > <article>
+          > <aside>
+          > <footer>
+          > <form>
+          > <video>
+      > inline-level
+        > sempre inicia na linha
+        > não quebra linha
+        > não ocupa toda sua tela
+        > tags
+          > <span>
+          > <a>
+          > <code>
+          > <small>
+          > <strong>
+          > <em>
+          > <sup> - <sub>
+          > <lebal>
+          > <button>
+          > <input>
+          > <select>
+
+   > user agent é o navegador
+   > margin= auto; => colocar a caixa no meio
+   > ordem: width - style - color
+            top - right - bottom - left
+  > Tags:
+    > Cabeçalho -> header
+    > nav para links
+    > main -> conteudo principal
+    > footer -> para o rodapé
+    > section -> seções
+    > aside -> relativo ao conteudo, periférico
+    > article -> artigo
+    > shadow -> 1px 1px 1px 1px COR
+  > shorthend 
+  > border-radius = duas medidas são dois lados -> 20px 0px
+  > Seja Sempre Discreto
+  > círculo perfeito:
+    > div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+  > Bordas Decoradas
+    > border-image-source: url("")
+    > border-image-slice: 20; -> fatiador de bordas
+    > border-image-repeat: repeat; -> repetir stretch -> espixar kkkk
+    > border-image: url("borda.png") 27 repeat; -> shorthend
+
+  > DESAFIO do Capítulo 16 - Desafio 10
+  -> Ferramenta para desenvolver sites
+    > mockflow.com
+
+  > Variáveis em CSS
+    > :root {
+        A raiz do nosso CSS...
+        sempre começa com "--"
+    }
+  > Reponsividade de sites
+    > usar o min-width e max-width
+    > usar o width 100%
+    > usar o >< para imagens:
+    <picture>
+          <source media="(max-width:600px )" srcset="imagens/irina-blok-pq.jpg">
+          <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+      </picture>
+  > transition-duration: .5s; -> duração do hover...
+  > 00A0 -> código para dar espaço - nbsp
+  > margem negativa usando números negativos...
+  > video externos
+    > div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+    }
+    div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    }
+--------------------------------------------
+            > Módulo 3 <
+> git e GitHub
+  > Repositório local/remoto
+    > Local = No seu Desktop
+    > Remoto = Em um servidor
+  > Git mantêm diversas versões do seu projeto
+  > GitHub é um hospedador de códigos
