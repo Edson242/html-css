@@ -692,3 +692,39 @@ bdo/rtl ou ltl => inverter retrevni
     > Remoto = Em um servidor
   > Git mantêm diversas versões do seu projeto
   > GitHub é um hospedador de códigos
+
+> Imagem de Fundo
+  > background-image: url('imagens/pattern001.png'); -> para adicionar imagens como fundo
+  > background-size: 100px 100px; -> para mudar o tamanho do fundo                                           horizontal - vertical
+  > background-repeat: no-repeat; -> para repetir ou não as imagens de fundo = variaveis= repeat; no-repeat; repeat-x; repeat-y; 
+  > background-position: left center -> Mudar a posição do fundo = Variaveis = Left Top, Left Center, Left Bottom, Top, Bottom, Right Top, Rigtyh Bottom, Right Center, Rigth, Center
+  > heigth: 98vh; -> Melhor tamanho para não achatar sua janela do navegador
+  > SEMPRE CONFIGURE COR DE FUNDO, MESMO USANDO IMAGENS!!
+  > background-size:
+    > contain: mostrar a imagen 100% da tela;
+    > cover: ele mostra imagem mas corta;
+    > usar % daa tela em uso;
+    > usar valor em px;
+  > background-attachment: fixed
+    > attachmente = vinculo
+    > scroll: a imagem rola junto com o conteúdo;
+    > fixed: a imagem fica fica fixa e o conteúdo rola normal;
+  > shorthand background
+    > background-color: black;
+      background-image: url('imagens/wallpaper002.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+      Shorthand - background
+      color > image > position > repeat > [size] > attachment
+
+      background: black url('imagens/wallpaper002.jpg') center no-repeat fixed;
+      background-size: cover; -> se usar cover no shorthand ele não funciona!
+
+  > Posicionamento Vertical
+    > usa position: relative e position: absolute;
+    > usa left: 50% e top: 50%
+    > usar transform: translate(-50%, -50%)
+    
