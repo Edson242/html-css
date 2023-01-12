@@ -746,11 +746,24 @@ bdo/rtl ou ltl => inverter retrevni
     > Tabelas Grandes
       > ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
-            TBODY
+            TBODYEscopo e Caption
                 TR, TD, TH
             TFOOT
                 TR, TD, TH
-                
-    > 
+
+    > Escopo e Caption
+      > scope="row/col"
+    > EFEITO ZEBRADO!
+      >  tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        } o "2n" que muda !! pode se usar odd/even(impar ou par)
+    > Fixar cabeçalhos de tabelas grandes
+      > OBS:USAR POSITION RELATIVE!
+      > thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #383838;
+        }
