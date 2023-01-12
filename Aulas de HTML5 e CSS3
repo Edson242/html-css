@@ -727,4 +727,18 @@ bdo/rtl ou ltl => inverter retrevni
     > usa position: relative e position: absolute;
     > usa left: 50% e top: 50%
     > usar transform: translate(-50%, -50%)
-    
+  
+  > Tabelas
+    > Hierarquia de Tabelas Simples
+      > </table> -> Tabela
+          </table row> -> Linha da tabela
+            </table header> -> Cabeçalho da tabela
+            </table data> -> Dados da Tabela
+    > tags:
+    > SEGUIR SEMPRE A HIERARQUIA CORRETA !!
+      > </table>
+      > </tr> -> Linha da tabela
+      > </td> -> Dados da Tabelas/Célula
+      > TAG CSS => border-collapse: collapse; -> Tirar os espaços entre as bordas da tabela!
+      > Alinhamento Vertical no CSS:
+        > vertical-align: middle; -> middle == center
