@@ -742,3 +742,15 @@ bdo/rtl ou ltl => inverter retrevni
       > TAG CSS => border-collapse: collapse; -> Tirar os espaços entre as bordas da tabela!
       > Alinhamento Vertical no CSS:
         > vertical-align: middle; -> middle == center
+
+    > Tabelas Grandes
+      > ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+                
+    > 
