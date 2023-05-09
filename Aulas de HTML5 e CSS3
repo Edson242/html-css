@@ -767,3 +767,17 @@ bdo/rtl ou ltl => inverter retrevni
             top: 0;
             background-color: #383838;
         }
+    > Mesclagem de Célula
+     > usa colspan="quantidade de colunas para juntar" isso no HTML! dentro do tr 
+
+    > Escopo
+     > indica onde está as informções relacionadas ao TH > thead
+
+    > colgroup
+     > usa para colorir a coluna inteira
+     > Ex: <colgroup>
+              <col> -> toda css aplicada aqui será replicada na coluna inteira
+              <col>
+              <col>
+              <col>
+           </colgroup>
